@@ -1,0 +1,60 @@
+57 key word for java and the uses.
+
+
+1. Abstract:used to declare an abstract class or abstract method(no body)
+2. Assert:used for dedugging;tests if a condition is true
+3. Boolean:declares a true/false variable
+4. Break:stops a loop or switch statement
+5. Byte:declares an 8-bit integer
+6. Case:defines a block inside a switch statement
+7. Catch:handles exceptions in try-catch block
+8. Char:declares a sing character variable
+9. Class:declares a class
+10. Const:reserved keyword(not used)
+11. Continue:skips current loop iteration
+12. Default:default block in switch statement
+13. Do:used in do while loop
+14. Double:declares a double precision number
+15. Else:defines alternative condition in if statement
+16. Enum:declares an enumeration(fixed constants)
+17. Extends:used for inheritance
+18. Final:prevents modification(constant,no override,no inheritance)
+19. Finally:block that always excutes after try catch
+20. Float:declares a float point number
+21. For:used to create a loop
+22. Goto:reserved but not used
+23. If:conditional statement
+24. Implements:used when class implements interface
+25. Import:imports packages or classes
+26. Instanceof:checks if object belongs to a class
+27. Int:delcares an integer variable
+28. Interface:declares an interface
+29. Long:declares long integer
+30. Native:indicates method implemented in native code (c/c++)
+31. New: creates new object
+32. Package:defines package name
+33. Private:access modifier(only inside class)
+34. Protected:accessible within package and subclasses
+35. Public:accessible everywhere
+36. Return:returns value from method
+37. Short:delcares short integer
+38. Static:belongs to class,not object
+39. Strictfp:restricts floating point calculations
+40. Super:refers to parent class
+41. Switch:multiplevselection statement
+42. Synchronized:controls thread access
+43. This:refers to current object
+44.Throw:throws an exception
+45. Throws:declares exceptions
+46. Transient:prevents variable from serialization
+47. Try:defines block to test exceptions
+48. void:method returns nothing
+49. volatile:variable value can changevunexpectedly(usedvin threads)
+50. While:loop while condition is true
+51. True:boolean true value
+52. False:boolean false value
+53. Null:represents no object reference
+54. Var:local variable type inference(java10+)
+55. Record:declares immutable data class(java14+)
+56. Sealed:restrictsnwhich classes can extend it
+57. Non Sealed:allows subclassing of sealed class
