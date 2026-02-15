@@ -1,0 +1,247 @@
+           Chapter 1
+Exercises 1.1
+a) programs
+b) input unit,output unit,memory unit,arithmetic and logic unit(ALU),central processing unit(CPU),and secondary storage unit
+c) machine languages,assembly language,high level language
+d) compilers
+e) Android
+f) Release
+g) Accelerometer
+
+Exercises 1.2
+a) java
+b) java
+c) java
+d) class
+e) bytecodes
+
+Exercises 1.3
+a) information hiding
+b) classes
+c) object oriented analysis and design(OOAD)
+d) inheritance
+e) UML(Unified Modeling Language)
+f) attributes
+
+Exercises 1.4
+a) Input Unit
+b) Programming
+c) Assembly Language
+d) Output Unit
+e) Primary Memory(RAM)and secondary Memory(Hard Disk/Storage)
+f) Arithmetic logic Unit(ALU)
+g) Control Unit(CU)
+h) High Level Languages
+i) Machine Language
+j) Contorl Unit(CU)
+
+Exercises 1.5
+a) Java
+b) C
+c) Transmission control protocol(TCP)
+D) C++
+
+Exercises 1.6
+a) Editing,compiling,linking,loading,and execution
+b) integrated development environment(IDE)
+c) virtual machine(JVM)
+d) virtual machine
+e) class loader
+f) bytecode verifier
+
+Exercises 1.7
+1) Source code bytecode:you write your program in a file with the java extension.the java compiler translates the source code into bytecode
+
+2) Bytecode Machine code:the java virtual machine load the class file.the JVM interprets(or just in time compiles) the bytecode into machine language
+
+Exercises 1.8
+1) Object:
+An object is a real-world entity.
+A wrist watch is an object because it exists physically and has characteristics and behaviors
+
+2) Attributes (State)
+Attributes are the data or characteristics of an object.
+For a wrist watch, attributes may include:
+	•	Time (hour, minute, second)
+	•	Date
+	•	Color
+	•	Brand
+	•	Battery level
+
+3) Behaviors (Methods)
+Behaviors are the actions an object can perform.
+A wrist watch can:
+	•	Display time
+	•	Set time
+	•	Set alarm
+	•	Turn on light
+	•	Start/stop stopwatch
+
+4) Class
+A class is a blueprint or template for creating objects.
+For example:
+	•	“WristWatch” is a class.
+	•	My personal Casio watch is an object created from that class
+
+5) Inheritance
+Inheritance allows one class to acquire the properties of another class.
+For example:
+	•	A basic class: Watch
+	•	A derived class: AlarmClockWatch
+The alarm clock watch inherits:
+	•	Time display
+	•	Date display
+And adds new features like:
+	•	Alarm sound
+	•	Snooze function
+
+6) Modeling
+Modeling means creating a representation of a real-world object in software.
+
+7) Messages
+A message is a request sent to an object to perform a behavior.
+For example:
+	•	Pressing the “Set” button sends a message to the watch to change the time.
+	•	In programming, calling setTime() sends a message to the object.
+
+8) Encapsulation
+Encapsulation means bundling data and methods together in one unit (the object).
+The watch keeps:
+	•	Its time data
+	•	Its alarm data
+	•	Its functions
+
+9)Interface
+The interface is how users interact with the object.
+For a wrist watch, the interface includes:
+	•	Buttons
+	•	Touch screen
+	•	Display screen
+
+10) Information Hiding
+Information hiding means keeping internal details private.
+For example:
+	•	You can see the time on the watch.
+	•	But you cannot see the internal gears or electronic circuits.
+
+Exercises 1.11
+[1:32 PM, 2/14/2026] Morrison Vivian: 1. Toyota Corolla Hybrid
+	•	City MPG: ~53 mpg
+	•	Highway MPG: ~46 mpg
+	•	Combined MPG: ~50 mpg
+	•	Engine + Electric Motor: 1.8 L inline-4 gas engine + two electric motors
+	•	Battery: small hybrid battery (typically ~1.4-1.6 kWh)
+	•	Features: regenerative braking, smoothly automated CVT transmission, good for city/highway driving. ￼
+
+⸻
+
+2. Toyota Camry Hybrid
+	•	City MPG: ~51–53 mpg
+	•	Highway MPG: ~50–53 mpg
+	•	Combined MPG: ~51–52 mpg
+	•	Engine + Electric Motor: 2.5 L gas engine + electric motor
+	•	Battery Types: lithium-ion (small capacity) or nickel-metal-hydride in some trims
+	•	Battery Location: under rear seats (to save cargo space)
+	•	Hybrid System: Toyota Hybrid Synergy Drive
+	•	Attributes: high fuel efficiency for a midsize sedan. ￼
+
+⸻
+
+3. Honda Accord Hybrid
+	•	City MPG: ~51 mpg
+	•	Highway MPG: ~44 mpg
+	•	Combined MPG: ~48 mpg
+	•	Hybrid Setup: gas engine + electric motor; smooth transition between electric and gasoline modes
+	•	Attributes: larger midsize vehicle with good efficiency and driving comfort. ￼
+
+⸻
+
+4. Kia Niro Hybrid
+	•	City MPG: ~53 mpg
+	•	Highway MPG: ~54 mpg
+	•	Combined MPG: ~53 mpg
+	•	Battery: ~1.56 kWh traction battery (~33 kg) with lithium chemistry
+	•	Attributes: subcompact SUV form, good balance of space + efficiency; uses lightweight materials to improve performance. ￼
+
+⸻
+
+5. Hyundai Sonata Hybrid
+	•	City MPG: ~44 mpg
+	•	Highway MPG: ~51 mpg
+	•	Combined MPG: ~47 mpg
+	•	Attributes: midsize sedan with long driving range and high fuel economy for its class. ￼
+
+⸻
+
+🔋 Common Hybrid Vehicle Attributes
+
+📊 Fuel Economy
+	•	City MPG: Often higher than highway because regenerative braking recovers energy. ￼
+	•	Highway MPG: Slightly lower or similar to city for many hybrids. ￼
+	•	Combined MPG: Weighted average of city + highway.
+
+⸻
+
+⚙️ Powertrain Design
+	•	Gasoline Engine: Usually 1.5–2.5 L inline gasoline engine.
+	•	Electric Motor: Provides torque at low speeds and assists acceleration.
+	•	Transmission: Often a CVT (continuously variable transmission) optimized for hybrid usage.
+
+⸻
+
+🔋 Battery Attributes
+	•	Type: Most hybrids use lithium-ion or nickel-metal-hydride batteries. ￼
+	•	Capacity: Typically ~1.0–1.6 kWh (much smaller than plug-in EV batteries). ￼
+	•	Weight: Battery packs can add 20–40 kg+ depending on capacity. ￼
+	•	Location: Often under the rear seats or trunk floor to balance weight and preserve cargo space.
+[1:32 PM, 2/14/2026] Morrison Vivian: 1.11
+[1:44 PM, 2/15/2026] Morrison Vivian: Procedure (Algorithm)
+	1.	Prepare the replacement list
+Create a list (or table) of gender-specific words and their neutral replacements.
+Example:
+	•	wife → spouse
+	•	husband → spouse
+	•	man → person
+	•	woman → person
+	•	daughter → child
+	•	son → child
+	2.	Read the paragraph word by word
+Start from the first word and move through the paragraph one word at a time.
+	3.	Check each word
+For each word:
+	•	Compare it with the words in your replacement list.
+	•	If it matches exactly, replace it with the neutral word.
+	•	If it does not match, leave it unchanged.
+	4.	Preserve punctuation and capitalization
+	•	If the original word is capitalized (e.g., “Man”), the replacement should also be capitalized (“Person”).
+	•	Keep commas, full stops, and other punctuation marks in their correct positions.
+	5.	Continue until the end of the paragraph
+Repeat the process until every word has been checked
+
+
+Exercises 1.12
+procedure (Algorithm)
+	1.	Prepare the replacement list
+Create a list (or table) of gender-specific words and their neutral replacements.
+Example:
+	•	wife → spouse
+	•	husband → spouse
+	•	man → person
+	•	woman → person
+	•	daughter → child
+	•	son → child
+
+	2.	Read the paragraph word by word
+Start from the first word and move through the paragraph one word at a time.
+
+	3.	Check each word
+For each word:
+	•	Compare it with the words in your replacement list.
+	•	If it matches exactly, replace it with the neutral word.
+	•	If it does not match, leave it unchanged.
+	4.	Preserve punctuation and capitalization
+	•	If the original word is capitalized (e.g., “Man”), the replacement should also be capitalized (“Person”).
+	•	Keep commas, full stops, and other punctuation marks in their correct positions.
+	5.	Continue until the end of the paragraph
+Repeat the process until every word has been checked.
+
