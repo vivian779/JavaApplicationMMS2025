@@ -1,0 +1,138 @@
+        Chapter 2
+Exercises 2.1
+a) left brace and right brace
+b) if
+c) //
+d) Space,tab and newline
+e) keywords
+f) main
+g) print(),println(),printf()
+
+Exercises 2.2
+a) False
+Explanation: // starts a comment, and comments are ignored during execution.
+b) True
+c) False
+Explanation: Java is case sensitive and won’t consider the variable number and NuMbEr as identical
+d) Fales
+Explanation: The % operator works with both integers and floating-point numbers (double, float), not just integers.
+e) False
+Explanation: // starts a comment, and comments are ignored during execution.
+
+Exercises 2.3
+2.3 Write statements to accomplish each of the following tasks: 
+a) Declare variables c, thisIsAVariable, q76354 and number to be of type int.
+Answer: // int c, thisIsAVariable, q76354, number;
+ b) Prompt the user to enter an integer. 
+Answer: //System.out.print("Enter an integer: ");
+c) Input an integer and assign the result to int variable value. Assume Scanner variable input can be used to read a value from the keyboard.
+Answer: // int value = input.nextInt();
+ d) Print "This is a Java program" on one line in the command window. Use method System.out.println. 
+Answer: System.out.println("This is a Java program");
+e) Print "This is a Java program" on two lines in the command window. The first line should end with Java. Use method System.out.printf and two %s format specifiers. 
+Answer:
+System.out.printf("%s%n%s%n", "This is a Java", "program");
+f) If the variable number is not equal to 7, display "The variable number is not equal to 7”
+Answer: 
+if (number != 7) {
+    System.out.println("The variable number is not equal to 7");
+}
+
+Exercises 2.4
+2.4 Identify and correct the errors in each of the following statements: 
+a) if (c < 7); System.out.println("c is less than 7"); 
+
+Answer: 
+int c = 4;
+if (c < 7) {
+    System.out.println("c is less than 7");
+}
+
+b) if (c => 7) System.out.println("c is equal to or greater than 7");
+Answer:
+int c = 7;
+if (c >= 7) {
+    System.out.println("c is equal to or greater than 7");
+}
+
+Exercises 2.7
+2.7 Fill in the blanks in each of the following statements: 
+a) Comments are used to document a program and improve its readability. 
+b) A decision can be made in a Java program with a(n) if statement. 
+c) Calculations are normally performed by assignment statements. 
+d) The arithmetic operators with the same precedence as multiplication are division (/) and remainder(%) . 
+e) When parentheses in an arithmetic expression are nested, the innermost set of parentheses is evaluated first.
+ f) A location in the computer’s memory that may contain different values at various times throughout the execution of a program is called a(n) variable.
+ 2.8 Write Java statements that accomplish each of the following tasks: 
+a) Display the message "Enter an integer: ", leaving the cursor on the same line. 
+Answer: System.out.print("Enter an integer: ");
+b) Assign the product of variables b and c to variable a.
+Answer: a = b * c;
+ c) Use a comment to state that a program performs a sample payroll calculation. 
+Answer: // This program performs a sample payroll calculation
+
+Exercises 2.9
+ State whether each of the following is true or false. If false, explain why.
+ a) Java operators are evaluated from left to right. 
+Answer: False
+Explanation:
+Operators follow precedence rules first (*, /, % before +, -).
+If operators have the same precedence, then they are evaluated left to right.
+
+b) The following are all valid variable names: _under_bar_, m928134, t5, j7, her_sales$, his_$account_total, a, b$, c, z and z2. 
+Answer: True
+c) A valid Java arithmetic expression with no parentheses is evaluated from left to right. 
+Answer: False
+d) The following are all invalid variable names: 3g, 87, 67h2, h22 and 2h. 
+Answer: Explanation:
+h22 is valid because it starts with a letter.
+The others are invalid because they start with numbers.
+
+Exercises 2.10
+ Assuming that x=2 and y=3, what does each of the following statements display? 
+a) System.out.printf("x = %d%n", x); 
+Answer: X = 2
+b) System.out.printf("Value of %d + %d is %d%n", x, x, (x + x));
+Answer:  Value of 2 + 2 is 4
+
+c) System.out.printf("x ="); d) System.out.printf("%d = %d%n", (x + y), (y + x)); 
+Answer: X = 
+
+Exercises 2.11
+ Which of the following Java statements contain variables whose values are modified? 
+a) p=i+j+k+ 7; 
+Answer: Yes — modifies p.
+b) System.out.println("variables whose values are modified");
+Answer: NO — just prints text. c) System.out.println("a = 5"); 
+Answer: No — prints text only, does NOT change variable a.
+d) value = input.nextInt(); 
+Yes — modifies value.
+
+Exercises 2.12
+Given that y = ax3 + 7, which of the following are correct Java statements for this equation? 
+a) y=a*x*x*x+ 7; incorrect
+b) y = a * x * x * (x + 7); incorrect
+c) y = (a * x) * x * (x + 7); incorrect
+d) y = (a * x) * x * x + 7; correct
+e) y = a * (x * x * x) + 7; correct
+f) y = a * x * (x * x + 7);
+ 
+Exercises 2.13
+ State the order of evaluation of the operators in each of the following Java statements, and show the value of x after each statement is performed:
+ a) x = 7 + 3 * 6 / 2 - 1; 
+Answer: x = 15
+b) x = 2 % 2 + 2 * 2 - 2 / 2;
+Answer: x = 3
+c) x=(3 * 9 * (3 + (9 * 3 / (3)))); 
+Answer: x = 324
+The precedence of the operators is as follows
+1.	Parentheses ()
+2.	*, /, %
+3.	+, -
+Left → Right when same level
+
+
+
+
+
+
