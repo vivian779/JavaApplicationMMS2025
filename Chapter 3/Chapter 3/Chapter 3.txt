@@ -1,0 +1,34 @@
+Exercise 1
+3.10 Compare and contrast the if single-selection statement and the while repetition statement. How are these two statements similar? How are they different?
+
+Similarities:
+
+Both are control flow statements used to manage the execution of code based on conditions.
+Both evaluate boolean expressions to determine whether to execute certain blocks of code.
+
+
+Differences:
+
+if is used for single decision-making; it executes a block once if the condition is true.
+while is a loop; it repeatedly executes a block as long as the condition remains true.
+
+
+
+3.11 Explain what happens when a Java program attempts to divide one integer by another. What happens to the fractional part of the calculation? How can you avoid that outcome?
+
+When dividing integers in Java, the result is an integer division, which discards any fractional part (truncates toward zero). To retain fractional precision, cast at least one operand to double or float before division.
+
+3.12 Describe the two ways in which control statements can be combined.
+
+Using sequence (placing statements one after another).
+Using nesting (placing one control statement inside another).
+
+3.13 What type of repetition would be appropriate for calculating the sum of the first 100 positive integers? What type would be appropriate for calculating the sum of an arbitrary number of positive integers?
+
+For the first 100 integers: a for loop with a known count.
+For an arbitrary number: a while loop with a sentinel value to determine when to stop.
+
+3.14 What is the difference between preincrementing and postincrementing a variable?
+
+Preincrement (++x): increments the variable before using its value.
+Postincrement (x++): uses the current value, then increments afterward.
