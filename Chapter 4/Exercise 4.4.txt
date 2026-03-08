@@ -1,0 +1,35 @@
+Exercise 1
+a)i = 1;
+while (i <= 10);
+++i;
+}Error:•The semicolon right after while (i <= 10); causes an empty loop.•The braces are mismatched; there's an extra closing brace } at the end.Correction:•Remove the semicolon after the while condition.•Properly include the loop body within braces.Fixed version:i = 1;
+while (i <= 10) {
+    ++i;
+}b)for (k = 0.1; k != 1.0; k += 0.1)
+System.out.println(k);Error:•Comparing floating-point numbers for equality (k != 1.0) can be unreliable due to precision issues.•The loop may never terminate because k might not exactly reach 1.0.Correction:•Use a small epsilon for comparison or an integer loop counter to avoid floating-point comparison issues.•Alternatively, loop based on an integer count.Fixed version (using an integer counter):for (int i = 0; i <= 10; i++) {
+    double k = i * 0.1;
+    System.out.println(k);
+}c)switch (n) {
+case 1:
+System.out.println("The number is 1");
+case 2:
+System.out.println("The number is 2");
+break;
+default:
+System.out.println("The number is not 1 or 2");
+break;
+}Error:•Missing break; after case 1: causes fall-through, so if n == 1, it also executes the code for case 2.Correction:•Add a break; after the case 1: block.Fixed version:switch (n) {
+case 1:
+System.out.println("The number is 1");
+break;
+case 2:
+System.out.println("The number is 2");
+break;
+default:
+System.out.println("The number is not 1 or 2");
+break;
+}d)n = 1;
+while (n < 10)
+System.out.println(n++);Observation:•This code prints numbers 1 to 9, not 1 to 10.Correction:•Change the condition to n <= 10 to include 10.Fixed version:n = 1;
+while (n <= 10)
+    System.out.println(n++);

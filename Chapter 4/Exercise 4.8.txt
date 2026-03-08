@@ -1,0 +1,14 @@
+ 4.8 Compare and contrast the break and continue statements.
+ .Answer:FeaturebreakcontinuePurposeTerminates the current loop immediatelySkips the rest of the current iteration 
+  and continues with the next iterationEffect on loopExits the loop entirelySkips to the next iteration of the loopTypical 
+  usageTo exit a loop early based on a conditionTo skip certain iterations based on a conditionSummary:
+ •Use break to exit the loop entirely when a certain condition is met.
+ •Use continue to skip the remainder of the current iteration and proceed with the next iteration.
+
+
+
+
+
+
+
+

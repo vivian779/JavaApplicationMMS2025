@@ -1,0 +1,5 @@
+ 4.7 Discuss a situation in which it would be more appropriate to use a do…while statement than a while statement. Explain why.Answer:Use a do…while loop when you want the loop body to execute at least once, regardless of the condition.Example:
+Reading user input where you want to process the input at least once before checking if the user wants to continue:do {
+    // Read input and process
+} while (userWantsToContinue());Why:
+Because do…while guarantees execution of the loop body at least once, which is useful when initial input or setup must always occur, unlike while, where the condition is checked before the first execution.

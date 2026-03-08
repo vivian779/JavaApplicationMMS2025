@@ -1,0 +1,9 @@
+a) x = Math.abs(7.5);•Absolute value of 7.5 is 7.5.Result: x = 7.5
+b) x = Math.floor(7.5);•Floor of 7.5 is 7.0 (largest integer less than or equal to 7.5).
+c) x = Math.abs(0.0);•Absolute value of 0.0 is 0.0.Result: x = 0.0
+d) x = Math.ceil(0.0);•Ceiling of 0.0 is 0.0.Result: x = 0.0
+e) x = Math.abs(-6.4);•Absolute value of -6.4 is 6.4.Result:  Result: x = 7.0
+f) x = Math.ceil(-6.4);•Ceiling of -6.4 is -6.0 (smallest integer greater than or equal to -6.4).Result: x = -6.0
+g) x = Math.ceil(-Math.abs(-8 + Math.floor(-5.5)));Let's break this down:1.Inside the Math.abs():•Math.floor(-5.5):
+•Floor of -5.5 is -6.0.•So, -8 + (-6):•-8 + (-6) = -14.2.Math.abs(-14):•Absolute value of -14 is 14.3.Now, Math.ceil(14):
+•Ceiling of 14 is 14.0.Result: x = 14.0
